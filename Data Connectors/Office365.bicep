@@ -1,11 +1,10 @@
 resource symbolicname 'Microsoft.SecurityInsights/dataConnectors@2022-08-01' = {
   name: 'MyOffice365'
   kind: 'Office365'
-  scope: resourceSymbolicName
+  scope:  stilltbd
   etag: 'myetag'
   // For remaining properties, see dataConnectors objects
-  kind: 'Office365'
-  properties: {
+   properties: {
     dataTypes: {
       exchange: {
         state: 'Disabled'
