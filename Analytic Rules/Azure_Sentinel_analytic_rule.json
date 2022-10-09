@@ -15,7 +15,7 @@
             "apiVersion": "2022-09-01-preview",
             "properties": {
                 "displayName": "MyGitHubTestRule",
-                "description": "",
+                "description": "10:34 versie",
                 "severity": "Low",
                 "enabled": true,
                 "query": "\r\nSecurityEvent | where EventID == 4732",
