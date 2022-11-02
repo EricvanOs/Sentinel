@@ -1,7 +1,7 @@
 resource symbolicname 'Microsoft.SecurityInsights/dataConnectors@2022-08-01' = {
   name: 'MyOffice365'
   kind: 'Office365'
-  scope:  stilltbd
+  scope:  resourceId()
   etag: 'myetag'
   // For remaining properties, see dataConnectors objects
    properties: {
